@@ -3,3 +3,6 @@
 
 # virtual environment
 venv/
+
+# text files
+*.txt
