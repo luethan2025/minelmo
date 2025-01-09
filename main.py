@@ -33,7 +33,8 @@ def parse_config(path: str):
 def main():
   opts = get_argparser().parse_args()
   config = parse_config(opts.config_path)
-  top_k = config["hyperparameters"]["top_k"]
+  dataset_path = config["paths"]["dataset"]
+  top_k = config["dataset_hyperparameters"]["top_k"]
 
 if __name__ == "__main__":
   main()
