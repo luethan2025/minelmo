@@ -6,3 +6,6 @@ venv/
 
 # text files
 *.txt
+
+# configuration file
+config.ini
