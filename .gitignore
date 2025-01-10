@@ -4,6 +4,9 @@
 # virtual environment
 venv/
 
+# pycache
+__pycache__/
+
 # text files
 *.txt
 
